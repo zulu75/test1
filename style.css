@@ -16,7 +16,7 @@ ol {
 p {
   font-size: 17px;
 }
-@media(max-width:300px) {
+@media(max-width:600px) {
   h1 {
     font-size: 100px;
   }
