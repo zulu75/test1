@@ -1,185 +1,5 @@
-/*
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
 
-@media (min-width: 1281px) {
-  h1 {
-    font-size:300%;
-    text-align: center;
-    background-color:hsl(120, 50%, 60%);
-    padding: 10px;
-    margin-bottom: 0;
-    border-bottom: 3px solid gray;
-  }
-  a {
-    color: black;
-    text-decoration: none;
-  }
-  ul {
-    font-size: 120%;
-    border-right: 3px solid gray;
-    padding: 20px;
-    padding-left: 40px;
-    margin: 0;
-  }
-  h2 {
-    font-size: 150%;
-  }
-  ol {
-    font-size: 120%;
-  }
-  p {
-    font-size: 110%;
-  }
-  #grid {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-  }
-  #list {
-    padding: 25px;
-    padding-top: 15px;
-  }
-}
-
-/*
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  h1 {
-    font-size:300%;
-    text-align: center;
-    background-color:hsl(120, 50%, 60%);
-    padding: 10px;
-    margin-bottom: 0;
-    border-bottom: 3px solid gray;
-  }
-  a {
-    color: black;
-    text-decoration: none;
-  }
-  ul {
-    font-size: 120%;
-    border-right: 3px solid gray;
-    padding: 20px;
-    padding-left: 40px;
-    margin: 0;
-  }
-  h2 {
-    font-size: 150%;
-  }
-  ol {
-    font-size: 120%;
-  }
-  p {
-    font-size: 110%;
-  }
-  #grid {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-  }
-  #list {
-    padding: 25px;
-    padding-top: 15px;
-  }
-}
-
-/*
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  h1 {
-    font-size:300%;
-    text-align: center;
-    background-color:hsl(120, 50%, 60%);
-    padding: 10px;
-    margin-bottom: 0;
-    border-bottom: 3px solid gray;
-  }
-  a {
-    color: black;
-    text-decoration: none;
-  }
-  ul {
-    font-size: 120%;
-    border-right: 3px solid gray;
-    padding: 20px;
-    padding-left: 40px;
-    margin: 0;
-  }
-  h2 {
-    font-size: 150%;
-  }
-  ol {
-    font-size: 120%;
-  }
-  p {
-    font-size: 110%;
-  }
-  #grid {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-  }
-  #list {
-    padding: 25px;
-    padding-top: 15px;
-  }
-}
-
-/*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  h1 {
-    font-size:300%;
-    text-align: center;
-    background-color:hsl(120, 50%, 60%);
-    padding: 10px;
-    margin-bottom: 0;
-    border-bottom: 3px solid gray;
-  }
-  a {
-    color: black;
-    text-decoration: none;
-  }
-  ul {
-    font-size: 120%;
-    border-right: 3px solid gray;
-    padding: 20px;
-    padding-left: 40px;
-    margin: 0;
-  }
-  h2 {
-    font-size: 150%;
-  }
-  ol {
-    font-size: 120%;
-  }
-  p {
-    font-size: 110%;
-  }
-  #grid {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-  }
-  #list {
-    padding: 25px;
-    padding-top: 15px;
-  }
-}
-
-/*
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
+@media (max-width: 799px) {
   h1 {
     font-size:300%;
     text-align: center;
@@ -205,17 +25,14 @@
     font-size: 110%;
   }
 }
-
-/*
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 800px) {
   h1 {
     font-size:300%;
     text-align: center;
-    background-color:hsl(120, 80%, 30%);
+    background-color:hsl(120, 50%, 60%);
+    padding: 10px;
+    margin-bottom: 0;
+    border-bottom: 3px solid gray;
   }
   a {
     color: black;
@@ -223,18 +40,26 @@
   }
   ul {
     font-size: 120%;
-    background-color:hsl(120, 40%, 50%);
+    border-right: 3px solid gray;
+    padding: 20px;
+    padding-left: 40px;
+    margin: 0;
   }
   h2 {
     font-size: 150%;
-    text-align: center;
-    background-color: hsl(120, 40%, 60%);
-    padding: 5px;
   }
   ol {
     font-size: 120%;
   }
   p {
     font-size: 110%;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+  #list {
+    padding: 25px;
+    padding-top: 15px;
   }
 }
