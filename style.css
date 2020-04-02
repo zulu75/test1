@@ -1,4 +1,4 @@
-@media (max-width: 999px) {
+@media (max-width: 899px) {
   h1 {
     font-size:100px;
     text-align: center;
@@ -24,7 +24,7 @@
     font-size: 25px;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   h1 {
     font-size:300%;
     text-align: center;
