@@ -1,4 +1,4 @@
-@media (max-width: 899px) {
+@media (max-width: 950px) {
   h1 {
     font-size:100px;
     text-align: center;
@@ -24,9 +24,9 @@
     font-size: 25px;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 951px) {
   h1 {
-    font-size:300%;
+    font-size:50px;
     text-align: center;
     background-color:hsl(120, 50%, 60%);
     padding: 10px;
@@ -38,20 +38,20 @@
     text-decoration: none;
   }
   ul {
-    font-size: 120%;
+    font-size: 21px;
     border-right: 3px solid gray;
     padding: 20px;
     padding-left: 40px;
     margin: 0;
   }
   h2 {
-    font-size: 150%;
+    font-size: 25px;
   }
   ol {
-    font-size: 120%;
+    font-size: 20px;
   }
   p {
-    font-size: 110%;
+    font-size: 18px;
   }
   #grid {
     display: grid;
